@@ -1,151 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV</title>
-</head>
-<body>
+    <link rel="stylesheet" href="/public/style.css"/>
+  </head>
+  <body>
     <header>
-        <nav> 
-            <a href="" download="CV_Frontend_Developer.pdf">download CV</a>
-        </nav>
+      <nav>
+        <button onclick="window.print()">Print</button>
+        <a href="" download="CV_Frontend_Developer.pdf">
+          <button>Download</button>
+        </a>
+      </nav>
     </header>
-    <main>
-        <h1>Halyna Kozlovska</h1>
-        <section id="contact">
-            <address>SW19, London, UK</address>
-            <a href="tel:+447748412282">+44 7748412282</a>
+    <main class="container">
+      <h1>Halyna Kozlovska</h1>
+      <section id="contact">
+        <div class="contact">
+          <address>SW19, London, UK</address>
+            <a href="tel:+447748412282">+44 7748 412 282</a>
             <span> | </span>
-            <a href="mailto:hkzlvs@gmail.com">hkzlvs@gmail.com</a>
-             <p>LinkedIn: 
-                <a href="https://www.linkedin.com/in/halyna-k">https://www.linkedin.com/in/halyna-k</a>
+            <a href="mailto:hkzlvs@gmail.com" class="text-accent">hkzlvs@gmail.com</a>
+        </div>
+        <div class="social-networks">
+          <p>
+            LinkedIn:
+            <a href="https://www.linkedin.com/in/halyna-k"
+              >https://www.linkedin.com/in/halyna-k</a
+            >
+          </p>
+          <p>
+            GitHub:
+            <a href="https://github.com/Halyna-K"
+              >https://github.com/Halyna-K</a
+            >
+          </p>
+        </div>
+      </section>
+      <h2>Frontend Developer</h2>
+      <section id="summary">
+        <h3>Profile</h3>
+        <p>
+          A highly motivated and detail-oriented frontend developer with over 2 years' experience in the industry. With key skills in analytical thinking and problem solving. <br/>Proud of achieving a team project in which we created our own e-commerce store. <br/>
+          I am looking for the opportunity to leverage my skills and passion for web development. <br/>
+          Eager to contribute to a dynamic team, where I can apply my knowledge and gain practical experience in a professional setting.
+        </p>
+      </section>
+      <section id="education">
+        <h3>Education</h3>
+        <ul>
+          <li class="education">
+            <b>National University of Water and Environmental Engineering, Ukraine</b>
+            <p>Master's degree in Applied Mathematics</p>
+          </li>
+        </ul>
+      </section>
+      <section id="skills">
+        <h3>Skills</h3>
+        <ul>
+          <li>
+            Frontend Technologies:
+            <ul>
+              <li class="item"><b>HTML5 / CSS</b></li>
+              <li class="item"><b>JavaScript ES6+ / TypeScript</b></li>
+              <li class="item"><b>React / React Native</b></li>
+              <li class="item"><b>Bootstrap-5 / Material UI</b></li>
+            </ul>
+          </li>
+          <li>
+            Backend Technologies:
+            <ul>
+              <li class="item"><b>Node.js</b></li>
+              <li class="item"><b>API / REST API</b></li>
+              <li class="item"><b>Axios</b></li>
+              <li class="item"><b>MongoBD / PostgreSQL(SQL)</b></li>
+              <li class="item"><b>OAuth / Auth0</b></li>
+            </ul>
+          </li>
+          <li>
+            Development Tools & Environments:
+            <ul>
+              <li class="item"><b>Figma</b></li>
+              <li class="item"><b>Postman</b></li>
+              <li class="item"><b>NPM</b></li>
+              <li class="item"><b>Git / GitHub</b></li>
+              <li class="item"><b>Babel / Webpack / Parcel</b></li>
+            </ul>
+          </li>
+          <li class="item">
+            Skilled in hunting down info, with a knack for
+            <b>speedy learning</b>.
+          </li>
+          <li class="item">
+            Excellent <b>team player</b> can also work independently.
+          </li>
+          <li class="item">
+            Effective <b>communication</b>, able to change communication style
+            to meet individual needs.
+          </li>
+          <li class="item">
+            <b>Problem-solving</b>, able to think outside box and come to a
+            positive resolution.
+          </li>
+          <li class="item">
+            <b>Bilingual</b>, speaks English (Upper-Intermediate, B2 / Level 1) Ukrainian (Fluent, Native, C2) Polish (Understanding, Conversational, A2) Russian (Fluent, C2)
+          </li>
+        </ul>
+      </section>
+      <section id="experience">
+        <h3>Work experience</h3>
+        <ul>
+          <li>
+            <div class="title-experience">
+              <h4 class="text-accent">Volunteer (UX/UI developer) | Spring ACT</h4>
+              <h5>January '24 - Present</h5>
+            </div>
+            <p>
+              Taking part in projects that use new technologies to solve big
+              social problems. <br/>Helping create and put into action plans
+              that make human rights stronger and reduce unfairness in society. <br/> Participated in a three-day hackathon focused on developing an application aimed at addressing specific social challenges.
             </p>
-            <p>GitHub: 
-                <a href="https://github.com/Halyna-K">https://github.com/Halyna-K</a>
+          </li>
+          <li>
+            <div class="title-experience">
+              <h4 class="text-accent">
+                Frontend Developer | Team Challenge, Ukraine
+              </h4>
+              <h5>June '23 - December '23</h5>
+            </div>
+            <p>
+              Collaborated with designers and backend developers to create
+              responsive interfaces. <br />Developed reusable React components
+              for efficient code. Implementing key frontend functionalities.
+              <br />Active in code reviews, providing valuable feedback.
+              Successful track record of on-time project delivery.
             </p>
-        </section>
-        <hr>
-        <section id="summary">
-            <h2>Frontend Developer</h2>
-            <p>A highly motivated and detail-oriented frontend developer with over 2 years' experience in the industry. <br> With key skills in analytical thinking and problem solving. Proud of achieving a team project in which we created our own ecommerce store. <br> I am looking for the opportunity to leverage my skills and passion for web development. <br>Eager to contribute to a dynamic team, where I can apply my knowledge and gain practical experience in a professional setting.</p>
-        </section>
-        <hr>
-        <section id="education">
-            <h3>Education</h3>
-            <ul>
-                <li>
-                    <b>National University of Water and Environmental Engineering, Ukraine</b>
-                    <p>Master's degree in Applied Mathematics</p>
-                </li>
-            </ul>
-            
-        </section>
-        <hr>
-        <section id="skills">
-            <h3>Skills</h3>
-            <ul>
-                <li>Frontend Technologies:
-                    <ul>
-                        <li><b>HTML5 / CSS</b> <i>85%</i></li>
-                        <li><b>JavaScript ES6+ / TypeScript</b> <i>60%</i></li>
-                        <li><b>React / React Native</b> <i>85%</i></li>
-                        <li><b>Bootstrap-5 / Material UI</b> <i>85%</i></li>
-                    </ul>
-                </li>
-                <li>Backend Technologies:
-                    <ul>
-                        <li><b>Node.js</b> <i>70%</i></li>
-                        <li><b>API / REST API</b> <i>70%</i></li>
-                        <li><b>Axios</b> <i>70%</i></li>
-                        <li><b>MongoBD / PostgreSQL(SQL)</b> <i>60%</i></li>
-                        <li><b>OAuth / Auth0</b> <i>65%</i></li>
-                    </ul>
-                </li>
-                <li>Development Tools & Environments:
-                    <ul>
-                        <li><b>Figma</b> <i>85%</i></li>
-                        <li><b>Postman</b> <i>85%</i></li>
-                        <li><b>NPM</b> <i>60%</i></li>
-                        <li><b>Git / GitHub</b> <i>75%</i></li>
-                        <li><b>Babel / Webpack / Parcel</b> <i>60%</i></li>
-                    </ul>
-                </li>
-                <li>Skilled in hunting down info, with a knack for speedy learning. <i>95%</i></li>
-                <li>Excellent team player can also work independently. <i>90%</i></li>
-                <li>Effective communication, able to change communication style to meet individual needs. <i>90%</i></li>
-                <li>Problem-solving, able to think outside box and come to a positive resolution. <i>90%</i></li>
-                <li>Bilingual, speaks English (Upper-Intermediate, <i>85%</i>) Ukrainian (Fluent, Native, <i>100%</i>) Polish (Understanding, Conversational, <i>80%</i>) Russian (Fluent, <i>90%</i>)</li>
-            </ul>
-        </section>
-        <hr>
-        <section id="experience">
-            <h3>Work experience</h3>
-            <ul>
-                <li>
-                    <h4>Volunteer | Spring ACT</h4>
-                    <h5>January '24 - Present</h5>
-                    <p>Taking part in projects that use new technologies to solve big social problems. <br>Helping create and put into action plans that make human rights stronger and reduce unfairness in society.</p>
-                </li>
-                <li>
-                    <h4>Frontend Developer | Team Challenge, Ukraine</h4>
-                    <h5>June '23 - December '23</h5>
-                    <p>Collaborated with designers and backend developers to create responsive interfaces. <br>Developed reusable React components for efficient code. Implementing key frontend functionalities. <br>Active in code reviews, providing valuable feedback. Successful track record of on-time project delivery.</p>
-                </li>
-                <li>
-                    <h4>Frontend Developer | GoIT Project GoIT, Ukraine</h4>
-                    <h5>February '21 - February '22</h5>
-                    <p>Worked as a frontend developer, contributing to the development of search events and smart finance web applications. <br>I implemented frontend functionalities using HTML, CSS, and JavaScript, with a focus on React. <br>Active participation in code reviews, providing valuable insights for code quality.</p>
-                </li>
-                <li>
-                    <h4>Interior Designer, Self-Employed, Lviv, Ukraine</h4>
-                    <h5>November '18 - February '22</h5>
-                    <p>Specializing in salon, wedding dress boutique, and residential interior design. <br>Responsibilities include developing creative designs, collaborating with clients, <br>leading the design process, providing construction support, and managing projects within timelines and budgets.</p>
-                </li>
-                <li>
-                    <h4>Full time Parent</h4>
-                    <h5>January '10 - Present</h5>
-                    <ul>
-                        <li>Preparing meals daily</li>
-                        <li>Carrying out hygiene functions</li>
-                        <li>Helping with learning and development</li>
-                    </ul>
-                </li>
-            </ul>
-        </section>
-        <hr>
-        <section id="qualifications">
-            <h3>Qualifications & Certifications</h3>
-            <ul>
-                <li>
-                    <h4>GoIT, Ukraine</h4>
-                    <p>Full Stack Developer (FS_7863), <a href="/public/images/GoIT_FullStack_developer_2022.png">February 2022</a></p>
-                </li>
-                <li>
-                    <h4>Udemy, Online training</h4>
-                    <p>React and Typescript (UC-1e6TM1381-2667-49da9807-3992345c614e), <a href="/public/images/Udemy_React and Typescript_ 2023.png">May 2023</a></p>
-                </li>
-                <li>
-                    <h4>SpringACT, Hacathon</h4>
-                    <p>React and Typescript, <a href="/public/images/Certificate_hacathon_March_2024.png">March 2024</a></p>
-                </li>
-                <li>
-                    <h4>Udemy, Online training</h4>
-                    <p>The Complete 2024 Web Development Bootcamp, <a href="">Present</a></p>
-                </li>
-            </ul>
-        </section>
-        <hr>
-        <section id="other">
-            <h3>Other</h3>
-            <ul>
-                <li><a href="./views/hobbies.html">Hobbies</a></li>
-                <li><a href="./views/contact.html">Contact</a></li>
-            </ul>
-        </section>
-
-        <h4>References available on request.</h4>
+          </li>
+          <li>
+            <div class="title-experience">
+              <h4 class="text-accent">
+                Frontend Developer | GoIT Project GoIT, Ukraine
+              </h4>
+              <h5>February '21 - February '22</h5>
+            </div>
+            <p>
+              Worked as a frontend developer, contributing to the development of
+              search events and smart finance web applications. <br />I
+              implemented frontend functionalities using HTML, CSS, and
+              JavaScript, with a focus on React. <br />Active participation in
+              code reviews, providing valuable insights for code quality.
+            </p>
+          </li>
+          <li>
+            <div class="title-experience">
+              <h4 class="text-accent">
+                Interior Designer | Self-Employed, Lviv, Ukraine
+              </h4>
+              <h5>November '18 - February '22</h5>
+            </div>
+            <p>
+              Specializing in salon, wedding dress boutique, and residential
+              interior design. <br />Responsibilities include developing
+              creative designs, collaborating with clients, <br />leading the
+              design process, providing construction support, and managing
+              projects within timelines and budgets.
+            </p>
+          </li>
+          <li>
+            <div class="title-experience">
+              <h4 class="text-accent">Full time Parent</h4>
+              <h5>January '10 - Present</h5>
+            </div>
+            <p>
+              Preparing meals daily. <br/>
+              Carrying out hygiene functions. <br/>
+              Helping with learning and development.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section id="qualifications">
+        <h3>Qualifications & Certifications</h3>
+        <ul>
+          <li>
+            <h4>GoIT, Ukraine</h4>
+            <p>
+              Full Stack Developer<a
+                href="/public/images/GoIT_FullStack_developer_2022.png"
+                title="GoIT FullStack Developer 2022"
+              >
+                (FS_7863), February 2022</a
+              >
+            </p>
+          </li>
+          <li>
+            <h4>Udemy, Online training</h4>
+            <p>
+              React and Typescript<a
+                href="/public/images/Udemy_React and Typescript_ 2023.png"
+                title="Udemy React and TypeScript 2023"
+              >
+                (UC-1e6TM1381-2667-49da9807-3992345c614e), May 2023</a
+              >
+            </p>
+          </li>
+          <li>
+            <h4>SpringACT, Hackathon</h4>
+            <p>
+              React and Typescript,
+              <a
+                href="/public/images/Certificate_hackathon_March_2024.png"
+                title="SpringACT Hackathon March 2024"
+                >March 2024</a
+              >
+            </p>
+          </li>
+          <li>
+            <h4>Udemy, Online training</h4>
+            <p>
+              The Complete 2024 Web Development BootCamp, <a href="">present</a>
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section id="other">
+        <h3>Other</h3>
+        <ul>
+          <li><a href="./views/hobbies.html">Hobbies</a></li>
+          <li><a href="./views/contact.html">Contact</a></li>
+        </ul>
+      </section>
+      <h4 class="additional-text">References available on request.</h4>
     </main>
-    <footer>Copyright © <a href="/views/about.html">GK</a></footer>
-</body>
+    <footer>
+      Copyright © <a href="/views/about.html" class="text-accent">GK</a>
+    </footer>
+  </body>
 </html>
