@@ -50,17 +50,16 @@ body {
   box-shadow: 0 0 15px #3333334c;
 }
 
-h1 {
-  /* margin-top: 20px; */
-  font-weight: 100;
-}
-
 address {
-  margin-bottom: 0.75rem;
+  margin: 0.75rem 0;
 }
 
 h1, h2 {
   text-align: center;
+}
+
+h1 {
+  font-weight: 100;
 }
 
 h2 {
@@ -116,13 +115,15 @@ a {
   align-items: center;
   justify-content: space-between;
 }
+
 .title-experience:nth-child(1) {
   margin-top: 0.75rem;
 }
 
-#qualifications p {
+#education p, #qualifications p  {
   margin-top: 0;
 }
+
 #other a {
   text-decoration: underline;
 }
@@ -149,31 +150,16 @@ footer {
   }
 
   h1 {
-    margin: 10px;
     font-size: 16pt;
-  }
-
-  address {
-    margin-bottom: 10px;
-    font-style: normal;
-  }
-  .contact {
-    font-size: 12pt;
-  }
-
-  .social-networks {
-    margin-top: 10px;
-    font-size: 10pt;
   }
 
   h2 {
     margin-top: 0;
     padding: 0;
   }
-
-  p {
-    margin-top: 5px;
-    line-height: 1;
+  address {
+    margin-bottom: 5px;
+    font-style: normal;
   }
 
   section, h2 {
@@ -185,9 +171,24 @@ footer {
     margin-top: 5px;
   }
 
+  p {
+    margin-top: 5px;
+    line-height: 1;
+  }
+
+  .contact {
+    font-size: 12pt;
+  }
+
+  .social-networks {
+    margin-top: 10px;
+    font-size: 10pt;
+  }
+
   .title-experience {
     margin-bottom: 5px;
   }
+
   .additional-text {
     font-size: 10pt;
   }
