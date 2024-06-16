@@ -126,6 +126,13 @@ ul {
 #experience b {
   font-style: italic;
 }
+#languages ul {
+  display: flex;
+  gap: 10px;
+}
+#languages .item {
+  padding-right: 15px;
+}
 footer {
   text-align: center;
   font-size: 0.75rem; /* 12px */
