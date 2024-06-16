@@ -126,6 +126,10 @@ ul {
 #experience b {
   font-style: italic;
 }
+.project-links {
+  display: flex;
+  flex-direction: column;
+}
 #languages ul {
   display: flex;
   gap: 10px;
